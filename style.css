@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background: url(./img/numbers.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom,#67e600,#b9ff80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* opacity: 0.5; */
+}
+.heading{
+    font-size: 30px;
+}
+#start{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    
+}
+#startBox{
+        width: 250px;
+        height: 50px;
+       outline: none;
+       border: none;
+        border-radius: 10px;
+}
+#start:hover{
+    background:linear-gradient(to left, #67e600, #b9ff80);
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: ease-out 0.3s;
+}
